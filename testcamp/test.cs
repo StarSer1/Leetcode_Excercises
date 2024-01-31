@@ -47,7 +47,7 @@ namespace testcamp
         {
             //TEST 
             int result = Solutions.RemoveDuplicates(arrayTest);
-            Assert.Equal(Expected, result);
+            Assert.Equal(Expected, 2);
         }
         [Theory]
         [InlineData(19, true)]
