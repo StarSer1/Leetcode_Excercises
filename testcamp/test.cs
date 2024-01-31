@@ -9,7 +9,7 @@ namespace testcamp
 {
     public class test
     {
-        //callate pendejo homosexual
+        //chupa chupa thomas
         [Theory]
         [InlineData(121, true)]
         [InlineData(10, false)]
@@ -24,22 +24,7 @@ namespace testcamp
             bool o = Solutions.IsPalindrome(NumberTest);
             Assert.Equal(Expected, o);
         }
-        //Este no tiene sentido
-        [Fact]
-        public void NumberPal_TwoSum_ReturnArray()
-        {
-            //TEST 1
-            int[] nums = { 2, 7, 11, 15 };
-            int target = 9;
-            int[] resultado = Solutions.TwoSum(nums, target);
-            Assert.Equal(9, target);
-
-            //TEST 2
-            int[] nums2 = { 3, 3 };
-            int target2 = 6;
-            int[] resultado2 = Solutions.TwoSum(nums2, target2);
-            Assert.Equal(6, target2);
-        }
+       
         [Theory]
         [InlineData(new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }, 5)]
         [InlineData(new[] { 0, 1, 1, 1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 6, 6, 7, 8 }, 9)]
