@@ -9,7 +9,7 @@ namespace testcamp
 {
     public class test
     {
-        //TE ODIO BRANDON
+        //callate pendejo homosexual
         [Theory]
         [InlineData(121, true)]
         [InlineData(10, false)]
