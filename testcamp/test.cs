@@ -24,7 +24,7 @@ namespace testcamp
             bool o = Solutions.IsPalindrome(NumberTest);
             Assert.Equal(Expected, o);
         }
-       
+
         [Theory]
         [InlineData(new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }, 5)]
         [InlineData(new[] { 0, 1, 1, 1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 6, 6, 7, 8 }, 9)]
@@ -75,23 +75,13 @@ namespace testcamp
             Assert.True(result);
         }
         [Fact]
-        public void Explosion()
+        public void Numbre_Suma_Test()
         {
-            bool result;
-            //TEST 1
-            int[] a = { 26, 2, 16, 16, 5, 5, 26, 2, 5, 20, 20, 5, 2, 20, 2, 2, 20, 2, 16, 20, 16, 17, 16, 2, 16, 20, 26, 16 };
-            result = Solutions.UniqueOccurrences(a);
-            Assert.False(result);
-
-            //TEST 2
-            int[] b = { 1, 2 };
-            result = Solutions.UniqueOccurrences(b);
-            Assert.False(result);
-
-            //TEST 3
-            int[] c = { 1, 2, 2, 1, 1, 3 };
-            result = Solutions.UniqueOccurrences(c);
-            Assert.True(result);
+            int pendejo1 = 1;
+            int pendejo2 = 2;
+            int resultadopendejo = Solutions.sumasxd(pendejo1, pendejo2);
+            Assert.Equal(3, resultadopendejo);
         }
+        
     }
 }

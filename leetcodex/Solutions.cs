@@ -149,5 +149,10 @@ namespace leetcodex
             }
             return Repet_Times;
         }
+
+        public static int sumasxd(int numero, int numero2)
+        {
+            return numero + numero2;
+        }
     }
 }
