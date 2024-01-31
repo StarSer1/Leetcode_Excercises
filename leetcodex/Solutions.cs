@@ -154,5 +154,10 @@ namespace leetcodex
         {
             return numero + numero2;
         }
+
+        public static int numerodelusuariopendejo(int numero, int[]pendejada)
+        {
+            
+        }
     }
 }
