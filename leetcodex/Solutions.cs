@@ -155,9 +155,17 @@ namespace leetcodex
             return numero + numero2;
         }
 
-        public static bool numerodelusuariopendejo1(int numero, int[] pendejada)
+        public static bool numerodelusuariopendejo(int numero, int[] pendejada)
         {
-            
+            bool mamada = false;
+            for (int i = 0; i < pendejada.Length; i++)
+            {
+                if (numero == pendejada[i])
+                {
+                    mamada = true;
+                }
+            }
+            return mamada;
         }
 
         public static bool numerodelusuariopendejo2(int numero, int[] pendejada)
