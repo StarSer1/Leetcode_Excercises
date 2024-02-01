@@ -82,6 +82,20 @@ namespace testcamp
             int resultadopendejo = Solutions.sumasxd(pendejo1, pendejo2);
             Assert.Equal(3, resultadopendejo);
         }
-        
+        [Fact]
+        public void NumberPal_numerodelusuariopendejo_ReturnBool()
+        {
+            int[] a = { 1, 2, 3, 4};
+            int test = 5;
+            bool result = Solutions.numerodelusuariopendejo(test, a);
+            Assert.False(result);
+        }
+        public void NumberPal_numerodelusuariopendej2o_ReturnBool()
+        {
+            int[] a = { 1, 2, 3, 4 };
+            int test = 5;
+            bool result = Solutions.numerodelusuariopendejo2(test, a);
+            Assert.False(result);
+        }
     }
 }
