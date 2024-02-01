@@ -157,7 +157,7 @@ namespace leetcodex
 
         public static bool numerodelusuariopendejo1(int numero, int[] pendejada)
         {
-            return false;
+            
         }
 
         public static bool numerodelusuariopendejo2(int numero, int[] pendejada)

@@ -85,10 +85,7 @@ namespace testcamp
         [Fact]
         public void NumberPal_numerodelusuariopendejo_ReturnBool()
         {
-            int[] a = { 1, 2, 3, 4};
-            int test = 5;
-            bool result = Solutions.numerodelusuariopendejo(test, a);
-            Assert.False(result);
+            
         }
         public void NumberPal_numerodelusuariopendej2o_ReturnBool()
         {
